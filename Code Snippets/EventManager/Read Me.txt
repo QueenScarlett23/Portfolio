@@ -1,0 +1,1 @@
+A simple event manager for listening for events to happen and activating listening methods

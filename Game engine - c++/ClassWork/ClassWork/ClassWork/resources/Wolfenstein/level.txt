@@ -1,0 +1,97 @@
+# NOTE: please leave no empty spaces
+# this is a comment
+# data preceeded be a '#' will not be interpreted
+#
+# settings data
+::settings
+# no spaces allowed
+texturePath:stone.jpg
+#shineyness
+specularLevel:0.8
+#boolean for if there is a spot light on the camera
+spotLight:false
+#
+#
+# lights data
+# first light is always ambient light. all following lights are normal lights
+# name of light is not relevant but is used to help make level data readable
+::lights
+#light 				position(no spaces)			colour(no spaces)	strength(no spaces)		Ambient Strength(no spaces)			light constant(no spaces)
+-light1;			(-3.70,5.5,2.50)			(1,1,1)				(2)						(0.1)							(1)
+-light2;			(-2.80,5.5,9.85)			(0,0,1)				(2)						(0.1)							(1)
+-light3;			(-10.1,5.5,9.45)			(0.5,1,0.5)			(2)						(0.1)							(1)
+-light4;			(-6.24,5.5,14.0)			(1,0.5,0.5)			(2)						(0.1)							(1)
+#directional Light	direction			colour				strength				ambient strength		place holder(nessessary)
+-directionalLight;	(-0.2,-1,-0.3)		(1,0.3,0.3)			(0.3)					(0.05)						(0)
+#
+#
+# level data
+::level
+# NOTE:
+#  - lines do not need to be same number of characters each
+#  - do not leave spaces in between characters
+#  - wall can not be ajacent to nothing on any side. If nothing is meant to be there use the empty space character
+#
+# KEY:
+# '*' floor and nothing else
+# 'w' wall + floor
+# 'd' door + floor
+# '_' empty spaces
+__________________________________________
+______wwwwww_________________wwwwwwwwwwwww____
+______w****w______wwwwwwwwwwww***********wwwww_
+______w****ww_____w**********w***********w***w_
+______w*****w_____w**********d***********d***w_
+______w*****w_____w**********w***********w***w_
+______wwdddwwwwww_w***wwwwwwww***********wwwww_
+______w*********w_w***w______w***********w____
+______w*********www***www____wwwwwwdwwwwww_
+______w*********w*******w________w***w____
+______w*********d*******w________w***w_
+______w*********w*******w________w***w_
+_wwwwww*********wwwwwwwww________w***w_
+_w***ww*********w________________w***w____
+_w***wwwwwwdwwwww__________wwwwwww***wwww_
+_w***w___w***w_____________w************w_
+_wwdww___w***w_____________w***www***wwww_
+_w***wwwww***w_____________w***w_w***w___
+_w***w***w***w_____________w***w_w***w_
+_w***d***w***w_____________w***w_w***w_
+_w***w***w***w_____________wwwww_w***w_
+_w***wwwwwwdwwwww________________w***w_______________________________
+_w***ww*********w________________wwdww__________________wwwwwwwwwwwww_
+_w***ww*********w_______wwwwwwwwww***wwwwwwww___________w***********w_
+_w***ww*********w_______w*******************w___________w***********w_
+_w****w*********w_______w*******************w___________w***********w_
+_w****d*********w_______w*******************wwwwwwwwwwwww***********w_
+_w****w*********w_______w********************w**********************w_
+_w***ww*********w_______w********************d**********************w_
+_w***ww*********w_______w********************w**********************w_
+_w***ww*********w_______w*******************wwwwww***wwww***********w_
+_w***wwwwwwdwwwww_______w*******************w____w***w__w***********w_
+_w***w___w***w__________wwwwwwwwww***wwwwwwww____w***w__w***********w_
+_w***wwwww***w___________________wwdww___________w***w__wwwwwwwwwwwww_
+_w***w***w***w___________________w***w___________w***w_______________
+_w*******w***w___________________w***w___________w***w_______________
+_w***w***w***w___________________w***w___________w***wwwwwwwwwwwwwww_
+_w***wwwww***w___________________w***w___________w***w*************w_
+_w***wwwww***wwwwwwwwwwwww_______w***w___________w***d*************w_
+_w******************w****w_______w***w___________w***w*************w_
+_w******************d****w_______w***w___________wwwwwwwwwwwwwwwwwww_
+_w******************w****w_______w***w______________________________
+_wwwwwwwwwwwwwwwwwwwwwwwww_______w***w_____
+____________________________wwwwwwwdwwwwwww_
+____________________________w***w*****w***w_
+____________________________w***d*****d***w_
+____________________________w***w*****w***w_
+____________________________wwwwww***wwwwww_
+____________________________w***w*****w***w_
+____________________________w***d*****d***w_
+____________________________w***w*****w***w_
+____________________________wwwwww***wwwwww_
+____________________________w*************w_
+____________________________w*************w_
+____________________________w*************w_
+____________________________wwwwwwwwwwwwwww_
+___________________________________________
+::EndOfFile

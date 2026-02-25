@@ -1,0 +1,1 @@
+Code snippet demonstrating interfaces. Code was part of a plant growing simulator project where the player would need to care for plants including against diseases and malnutrition. Player needs to avoid being stung by bees as well.

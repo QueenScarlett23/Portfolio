@@ -1,0 +1,1 @@
+A simple tictactoe AI that makes use of an algorithm to make the best move
